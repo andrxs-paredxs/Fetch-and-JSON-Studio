@@ -23,6 +23,9 @@ window.addEventListener('load', function(){
                 <img class="avatar" src=${astronaut.picture}>
              </div>` );
 
+             document.body.innerHTML += `<h3>Astronaut count: ${astronauts.length}</h3>`
+
+
         })
     });
 });
